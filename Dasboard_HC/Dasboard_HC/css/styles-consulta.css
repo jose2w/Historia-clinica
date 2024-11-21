@@ -1,0 +1,118 @@
+
+/*  CSS Consulta */
+#consultar-registro{
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+#searchButton {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+#searchButton:hover {
+    background-color: #3e8e41;
+}
+#patientDNIConsult{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 50%;
+}
+#text-identificacion{
+    margin-top: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titulo-principal {
+    font-size: 36px;
+    font-weight: bold;
+    color: #008000; /* Verde oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo-principal::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #008000;
+    margin: 10px auto;
+  }
+
+
+  #editPatientFormContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #editPatientFormContainer h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #editPatientFormContainer p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .observation {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .observation p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .observation strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .date-time {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Agrega espacio entre los elementos */
+    border-bottom: 1px solid #3333; /* Línea debajo de fecha y hora */
+    padding-bottom: 10px;
+    margin-bottom: 10px; /* Espaciado con otros elementos */
+}
+
+.date-time p {
+    margin: 0; /* Elimina márgenes de los párrafos para un mejor control */
+}
+

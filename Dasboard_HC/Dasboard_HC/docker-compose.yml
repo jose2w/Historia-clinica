@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    depends_on:
+      - hapi-fhir
+
+  hapi-fhir:
+    build:
+      context: .
+      dockerfile: Dockerfile-hapi-fhir
+    ports:
+      - "8080:8080"

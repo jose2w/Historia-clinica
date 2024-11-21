@@ -1,0 +1,49 @@
+/*  CSS Crear */
+.form-group {
+    margin-right: 3%;
+    width:30%;
+}
+#crear-registro{
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.container-fluid h3{
+    font-style: italic;
+}
+.container-fluid label{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.container-fluid button{
+    display: block;
+    margin: 3% auto 5%;
+    width: 30%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+  
+}
+
+.titulo-principal {
+    font-size: 36px;
+    font-weight: bold;
+    color: #008000; /* Verde oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo-principal::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #008000;
+    margin: 10px auto;
+  }

@@ -1,0 +1,76 @@
+.tarjetas-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+  
+.tarjeta {
+    width: 250px;
+    height: 230px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+  .tarjeta i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-crear, .btn-consultar, .btn-listar {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-crear:hover, .btn-consultar:hover, .btn-listar:hover {
+    background-color: #0056b3;
+  }
+  
+  .crear-tarjeta {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .consultar-tarjeta {
+    background-color: #17a2b8;
+    color: #ffffff;
+  }
+  
+  .listar-tarjeta {
+    background-color: #6610f2;
+    color: #ffffff;
+  }
+
+  .titulo-principal {
+    font-size: 36px;
+    font-weight: bold;
+    color: #361ebb; /* Verde oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo-principal::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #008000;
+    margin: 10px auto;
+  }
